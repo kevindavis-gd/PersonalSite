@@ -5,53 +5,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/* ************************* contact bubble ******************** */
-
-.contact{
-  z-index: 1;
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:40px;
-	right:40px;
-	background-color:lightgreen;
-  color:black;
-	border-radius:20px;
-	text-align:center;
-	box-shadow: 2px 2px 3px #999;
-  text-decoration: none;
-  opacity:0.5;
-}
-
-.contact:hover{
-  background-color:lightgray;
-  box-shadow: 1px 1px 1px #999;
-  color:black;
-}
-
-/**************************************** Top button****************************************/
-
-.home-top{
-  z-index: 1;
-	position:fixed;
-	width:30px;
-	height:20px;
-	bottom:120px;
-	right:55px;
-	background-color:lightgrey;
-  color:black;
-	border-radius:20px;
-	text-align:center;
-	box-shadow: 2px 2px 3px #999;
-  text-decoration: none;
-  opacity:0.5;
-}
-
-.home-top:hover{
-  background-color:lightgray;
-  box-shadow: 1px 1px 1px #999;
-  color:black;
-}
 /* ************************** Vid ********************* */
 #introVid{
   z-index: 1000;
@@ -76,7 +29,8 @@ html {
 }
 .nav-but:hover{
   background-color: lightgray;
-  transition: 1.2s;
+  transition: 0.5s;
+  text-decoration: none;
 }
 
 /* ************************* Body ******************************/
@@ -210,7 +164,7 @@ html {
   margin-top: 20px;
   margin-left: 20%;
   margin-right:20%;
-  height:720px;
+  height:90px;
   background-color: lightgrey;
 
   border-radius: 5px;
@@ -221,47 +175,6 @@ html {
   grid-column-end: 3;
 }
 
-input[type=text], select, textarea  {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 5px;
-  margin-bottom: 14px;
-  resize: vertical;
-  box-shadow: 1px 1px 2px;
-  transition: 0.3s;
-
-}
-input[type=email] {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 5px;
-  margin-bottom: 14px;
-  resize: vertical;
-  box-shadow: 1px 1px 2px;
-  transition: 0.3s;
-}
-
-input[type=submit] {
-  background-color: lightgreen;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  box-shadow: 1px 1px 3px #999;
-  margin-top: 20px;
-}
-
-input[type=submit]:hover {
-  background-color: lightgray;
-  box-shadow: 1px 1px 1px #999;
-}
 
 .github-link{
   background-image: url(Media/Pictures/github.jpg);
@@ -269,7 +182,7 @@ input[type=submit]:hover {
   background-size: cover;
   height:50px;
   width:50px;
-  margin-top:35px;
+  margin-top:0px;
   margin-left: -50px;
   opacity: 0.5;
   transition: 1s;
