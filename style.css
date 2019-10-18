@@ -77,7 +77,6 @@ html {
   margin-top: 50px;
   margin-left: 0px;
   margin-right:0px;
-  background-color: lightgrey;
 
   grid-column-start: 1;
   grid-column-end: 3;
@@ -141,7 +140,7 @@ html {
 
   grid-column-start: 1;
   grid-column-end: 3;
-  background-color: lightgrey;
+
 }
 
 #skills{
@@ -190,7 +189,6 @@ html {
 
   grid-column-start: 1;
   grid-column-end: 3;
-  background-color: lightgrey;
 }
 #project-container{
   margin-top: 20px;
@@ -202,23 +200,19 @@ html {
 /* **************************************************** contact ****************************/
 #home-footer-email{
 
-  margin-top: 20px;
-  margin-left: 0px;
-  margin-right:0px;
-  height:80px;
-  background-color: lightgrey;
-
-  border-radius: 5px;
+  margin-top: 30px;
+  height:70px;
   background-color: white;
-  padding: 25px;
+  text-align: center;
+  line-height: 4px;
 
   grid-column-start: 1;
   grid-column-end: 3;
 }
 
 #home-footer-email li{
+  text-decoration: none;
   display:inline;
-  margin-bottom: 0;
 }
 
 
