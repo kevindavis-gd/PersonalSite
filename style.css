@@ -1,4 +1,3 @@
-
 *{
   margin: 0px;
   padding:0px;
@@ -19,7 +18,7 @@ html {
 }
 
 .second{
-  min-width: 500px;
+  min-width: 400px;
   position: relative;
   background-color: white;
   margin: 0px;
@@ -39,7 +38,7 @@ html {
 /* ******************** Nav ********************* */
 
 .nav-c{
-  min-width: 500px;
+  min-width: 400px;
   position: fixed;
   background-color: white;
   z-index: 1;
@@ -194,14 +193,13 @@ html {
   margin-top: 20px;
   margin-left: 0px;
   margin-right:0px;
-
 }
 
 /* **************************************************** contact ****************************/
 #home-footer-email{
 
   margin-top: 30px;
-  height:70px;
+  height:80px;
   background-color: white;
   text-align: center;
   line-height: 4px;
@@ -283,12 +281,22 @@ html {
 @media(max-width: 800px){
 
   .second{
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 0%;
+    margin-right: 0%;
     box-shadow: 1px 5px 10px;
   }
-
-  .nav-c{
-    width: 94%;
+  .nav-c a{
+    font-size: 3vw;
   }
+  .nav-c{
+    width: 100%;
+  }
+
+  #project-container{
+  font-size: 0vw;
+  }
+  #project-container h5{
+  font-size: 4vw;
+  }
+
 }
