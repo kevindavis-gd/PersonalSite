@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Iphone Calculator</title>
+        <!--Link to external css file -->
+        <link rel="stylesheet" href="style.css"> 
+    </head>
+
+    <body>
+        <h1>Iphone 6S</h1>
+
+        <div id="calc-parent">
+            <div class="row">
+            	<!-- what is being displayed on the screen -->
+                 <div class="column" id="calc-display-val">0</div>
+            </div>
+
+            <!-- row containg clear, backspace and divide button -->
+            <div class="row">
+                <div class="calc-btn column" id="calc-clear">A/C</div>
+                <!-- back space sign -->
+                <div class="calc-btn column" id="calc-backspace">&#8676;</div>
+                <div class="calc-btn column calc-btn-operator" id="calc-divide">/</div>
+            </div>
+
+            <!-- row containg 7, 8, 9, and multiply button -->
+            <div class="row">
+                <div class="calc-btn calc-btn-num column" id="calc-seven">7</div>
+                <div class="calc-btn calc-btn-num column" id="calc-eight">8</div>
+                <div class="calc-btn calc-btn-num column" id="calc-nine">9</div>
+                <div class="calc-btn column calc-btn-operator" id="calc-multiply">x</div>
+            </div>
+
+             <!-- row containg 4, 5, 6, and minus button -->
+            <div class="row">
+                <div class="calc-btn calc-btn-num column" id="calc-four">4</div>
+                <div class="calc-btn calc-btn-num column" id="calc-five">5</div>
+                <div class="calc-btn calc-btn-num column" id="calc-six">6</div>
+                <div class="calc-btn column calc-btn-operator" id="calc-minus">-</div>
+            </div>
+
+             <!-- row containg 1, 2, 3, and addition button -->
+            <div class="row">
+                <div class="calc-btn calc-btn-num column" id="calc-one">1</div>
+                <div class="calc-btn calc-btn-num column" id="calc-two">2</div>
+                <div class="calc-btn calc-btn-num column" id="calc-three">3</div>
+                <div class="calc-btn column calc-btn-operator" id="calc-plus">+</div>
+             </div>
+
+              <!-- row containg 0, decimal point and equal button -->
+            <div class="row">
+                 <div class="calc-btn calc-btn-num column" id="calc-zero">0</div>
+                 <div class="calc-btn column" id="calc-decimal">.</div>
+                 <div class="calc-btn column calc-btn-operator" id="calc-equals">=</div>
+            </div>
+        </div>
+
+       <script src="js.js"></script>
+    </body>
+</html>
